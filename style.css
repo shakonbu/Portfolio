@@ -1,0 +1,198 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    /* background-color: rgb(41,104,221); */
+    color: white;
+    /* text-align: center; */
+}
+nav{
+    /* background-color: rgb(167,225,0); */
+    color:white;
+    /* padding:30px; */
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    /* padding-top: 100%; */
+    
+}
+a:hover{
+    color:rgb(41,104,221);
+    font-size: 16px;
+    text-decoration: underline;
+}
+#nav_items{
+    list-style: none;
+}
+#nav_items li{
+    /* list-style-image: url(images/person-icon.png); */
+    margin:30px;
+}
+#nav_item1{
+    list-style-image: url(images/house.svg);
+}
+#sidebar{    
+    background-color: black;
+    width: 20%;
+    height: 750px;
+    float: left;
+    position: fixed;
+}
+#nav_items i,#socialmedia i{
+    margin :5px;
+}
+#main_picture{
+    float: left;
+    /* background-color: black; */
+    padding-left: 0px;
+    width: 100%;
+    height: 750px;
+    background-image: url(images/profile.jpg);
+    background-size:cover;
+    background-position: center;
+}
+#myprofile
+{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+}
+#profile_name{
+    padding-top: 400px;
+    /* margin-right: 1200px; */
+    /* margin-right:10px; */
+    margin-left: 350px;
+}
+#profile_name h1{
+    padding-left: 0px;
+}
+
+.typewriter{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .03em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .70s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+#portfolio_content{
+    /* margin-top: 50px; */
+}
+#about_sec,#project_sec,#project_sec_head,#contact_sec{
+    margin-left: 200px;
+    /* margin-right: 200px; */
+    /* padding: 10px; */
+}
+#about_sec
+{
+    /* padding-top: 800px; */
+    /* margin-top: px; */
+    padding-left: 150px;
+    background-color: white;
+    padding-bottom: 50px;
+}
+#about_sec p{
+    font-family :sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    line-height: 1.5;
+    text-align:justify;
+    /* word-break: break-all; */
+}
+#project_sec_head
+{
+    padding-top: 50px;
+    padding-left: 150px;
+    background-color: #f4fafd;
+}
+#project_sec{
+    padding-left:150px;
+    padding-top: 20px;
+    display: flex; /* to align in a straihght line*/
+    background-color:#f4fafd;
+    padding-bottom: 50px;
+   
+ }
+ #sd1,#sd2,#sd3{
+ background-color:rgba(0, 0, 0, 0.3);
+ border : 1px solid rebeccapurple;
+ border-radius:15px;
+ padding: 15px;
+ margin : 10px;
+ height:350px;
+ width:33%;
+}
+#sd1:hover,#sd2:hover,#sd3:hover{
+    transform: scale(1.05);
+    cursor: pointer; 
+}
+#contact_sec{
+     padding-top: 50px;
+    padding-left: 150px;
+    background-color: white;
+    padding-bottom: 50px;
+}
+#contact_sec label,#contact_sec input[type="text"],
+#contact_sec input[type="password"],
+#contact_sec input[type="number"],
+#contact_sec input[type="email"],
+#contact_sec select
+{
+    margin: 10px;
+    width:200px;
+    height:30px
+}
+#contact_sec input[type="text"],
+#contact_sec input[type="password"],
+#contact_sec input[type="number"],
+#contact_sec input[type="email"]
+{
+    border-radius: 5px;
+    border-color: darkgray;
+}
+ .right_cont{
+    padding-left:35px;
+    /* margin-bottom:5px; */
+} 
+/*.left_cont{
+    margin-top:2px;
+    margin-bottom:5px;
+} */
+ .contact_form{
+    margin-left: 100px;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #f4fafd;
+    border-radius: 2px;
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.3); 
+    padding: 50px;
+ }
+ #footer_sec
+{
+    padding-top: 50px;
+    margin-left: 150px;
+   text-align: center;
+   background-color: #f4fafd;
+}
+#footer_sec p{
+    padding-top: 5px;
+    font-size: 10px;
+}

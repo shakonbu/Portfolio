@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        
+    
+    
+    <div id="sidebar">
+        <!-- <h1>My Portfolio
+
+        </h1> -->
+        <div>
+            <img src="images/profile.jpg" alt="profile" id="myprofile" />
+        </div>
+        <h4>Shakkina Preetha A</h4>
+        <div id="socialmedia">
+            <a href="#"><i class="fa fa-facebook fa-fw"style="color: aliceblue;"></i></a>
+            <a href="#"><i class="fa fa-instagram fa-fw"style="color: aliceblue;"></i></a>
+            <a href="#"><i class="fa fa-linkedin fa-fw"style="color: aliceblue;"></i></a>
+            <a href="#"><i class="fa fa-skype fa-fw" style="color:aliceblue;"></i></a>
+        </div>
+        <nav>
+            <ul id="nav_items">
+                <li id="nav_item1"><i class="fa fa-home fa-fw"></i><a href="#home_sec">Home</a></li>
+                <li id="nav_item2"><i class="fa fa-user fa-fw"></i><a href="#about_sec">About me</a></li>
+                <li id="nav_item3"><i class="fa fa-file fa-fw"></i><a href="#project_sec">Projects</a></li>
+                <!-- <li id="nav_item4"><a href="">Go To Top</a></li> -->
+                <li id="nav_item5"><i class="fa fa-envelope fa-fw"></i><a href="#contact_sec">Contact Form</a></li>
+            </ul>
+        </nav>
+    </div>
+        <section id="home_sec">
+            <div id="main_picture" >
+                <div id="profile_name">
+                    <h1>Shakkina Preetha A</h1>
+                    <h3 class ="typewriter">
+                        Web Developer| L3 Support Engineer
+                    </h3>
+                </div>
+            </div>
+        </section>
+    </header>
+        <br>
+    <div id="portfolio_content">
+    <section id="about_sec">
+        
+        <div><h2 style="padding-top:20px;">About Me</h2>
+            <p>I am a backend developer with 12 years of experience (2012–2024) working closely with L2 and L3 teams to deliver reliable enhancements, resolve production issues, and maintain large-scale legacy systems. I specialize in analyzing and understanding complex, older codebases and identifying the root cause of issues with accuracy and speed.</p>
+
+            <p>Throughout my experience, I consistently demonstrated strong problem-solving skills, often resolving 3–4 P3 tickets per day while ensuring stability and quality. My work required deep debugging, impact analysis, and careful coordination with cross-functional teams.</p>
+
+            <p>My comfortable tech stack includes React.js and SQL, and I enjoy diving into the details of how systems and pages are structured behind the scenes. I recently took a one-year career break for family reasons, and I’m now preparing to re-enter the industry with refreshed focus and readiness to contribute.</p>
+
+            <p>I’m a detail-oriented engineer who values clean logic, dependable solutions, and continuous learning.</p>
+        </div>
+    </section>
+    <div id ="project_sec_head">
+        <h2>My Projects</h2>
+    </div>
+    <main id="project_sec">        
+        <div  id="sd1">
+            <h3>OneSCM</h3>
+            <p>
+                This product is purely supply chain and it made a better and automation the relationship between buyer and supplier using by below Modules. A Central Supply Chain Platform for real-time collaboration with internal and external business partners makes the Procure-to-Pay(P2P) Process more efficient. Buyers and Suppliers work together throughout the process to acknowledge orders, ship materials, create invoices and timely payments.
+                <!-- •	RFQ	•	PO	•	PO ACK
+•	ASN	•	PTN 	•	SDR
+•	Invoice	•	Admin Privileges	 -->
+            </p>
+            <a href="#" target="_blank"> View Projects</a>
+        </div>
+        <div id="sd2">
+            <h3>Distribution</h3>
+            <p>
+                Advisor Dashboard is the main application used by Advisors of AIG Life insurance. To bulk upload functionality, the advisors use 4 Sight standalone application. Where the advisors can upload all the necessary data of the clients. The main dashboard area has several links which traverse to many applications. It was developed on .net framework and migration was ongoing to MVC with react js and modified the apllication name into 4Sight dashboard.
+            </p>
+            <a href="#" target="_blank"> View Projects</a>
+        </div>
+        <div id ="sd3">
+            <h3>ONYX and Quick Start</h3>
+            <p>Data from source system - DMWeb, EMMA, GOAL/D are loaded into Quickstart(DWH) through ETL processes in PCToo application</p>
+            <p>
+                <ul>
+                    <li>Campaign and Leads data in Quickstart is extracted through CMS </li>
+                    <li>Extracted Campaign and Leads are transferred to Onyx Database as Sales and Service Incidents using SSIS packages</li>
+                    <li>Sales incident are proceeded further for Billing process in FLAS system (e-Payment) through Webservice integration</li>
+                    <li>Service Incidents are followed up by Call centers and back updated in Onyx.</li>
+                    <li>The complete Back update chain follows from Onyx ->QuickStart -> Source System (EMMA, GOALD/D)</li>
+                </ul>
+            </p>
+            <a href="#" target="_blank"> View Projects</a>
+        </div>
+    </main>
+    <section id="contact_sec">
+        <h2>Contact</h2>
+        <form>
+            <table class="contact_form">
+                <tr>
+                    <div  class="left_cont">
+                        <td>
+                            <label><span>*</span>UserName:</label>
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Enter your username" required>            
+                        </td>
+                    </div>
+                    <div >
+                        <td  class="right_cont">
+                           <label><span>*</span>Password:</label>
+                        </td>
+                        <td>
+                            <input type="password" title="Max digit 6" required><!-- on mouse hover it will show the hint -->
+                        </td>
+                    </div>
+                </tr>
+                <tr>
+                    <div  class="left_cont">
+                        <td>
+                            <label><span>*</span>Email:</label>
+                        </td>
+                        <td>
+                            <input type="email" required>
+                        </td>
+                    </div>
+                    <div >
+                        <td  class="right_cont">
+                            <label></span>*</span>Contact:</label>
+                        </td>
+                        <td>
+                            <input type="number" required>
+                        </td>
+                    </div>
+                </tr>
+                <tr>
+                    <div  class="left_cont">
+                        <td>
+                            <label><span>*</span>Gender:</label>
+                        </td>
+                        <td>
+                            <input type="radio">Male
+                            <input type="radio">Female
+                            <input type="radio">Others
+                        </td>
+                    </div>
+                    <div>
+                        <td   class="right_cont">
+                            <label><span>*</span> Skills:</label>
+                        </td>
+                        <td>
+                            <input type="checkbox">.Net
+                            <input type="checkbox">SQL
+                            <input type="checkbox">javascript
+                        </td>
+                    </div>
+                </tr>
+                <tr>
+                    <div  class="left_cont">
+                        <td>    
+                            <label>Select your city</label>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Select your City</option>
+                                <option>Chennai</option>
+                                <option>Coimbatore</option>
+                                <option>Bangalore</option>
+                                <option>Hyderabad</option>
+                            </select>
+                        </td>
+                    </div>
+               
+            <!-- <tr>
+            <label>Range:</label>
+            <input type="range"><br>
+            <label>Link:</label>
+            <input type="url"><br>
+            <input type="color"><br>
+            </tr> -->
+                
+                    <div>
+                        <td  class="right_cont">
+                            <label><span>*</span>DOB</label>
+                        </td>
+                        <td>
+                            <input type="date" required>
+                            <input type="time">
+                        </td>
+                    </div>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td style="align-content: end;">
+                        <!-- <button>Dummy</button>
+                        <input type="button" value="Cancel" class="B1"><br> -->
+                        <input type="Reset" value="Reset" class="B1">
+                    </td>
+                    <td>
+                        <input type="submit" value="Register" class="B1">
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+    <footer id="footer_sec">
+        <h6> © Copyright shekinah All Rights Reserved</h6>        
+        <p>Designed by BootstrapMade Distributed by Entriapp</p>
+    </footer>
+    </div>
+</body>
+</html>
